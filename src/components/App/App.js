@@ -14,7 +14,7 @@ class App extends Component {
               <ul>
                   <li> <Link to='/' className="main-nav">Home</Link> </li>
                   <li> <Link to='/about'>About</Link> </li> 
-                  <li> <Link to='/profile'>Contact</Link> </li>
+                  {/* <li> <Link to='/profile'>Contact</Link> </li> */}
               </ul>
             </nav> 
 

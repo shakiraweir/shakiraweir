@@ -19,7 +19,7 @@ class Home extends Component {
                                 </p>
                                 </div>
                                 <div className='welcome-btn'>
-                                    <span ><Link to='/profile/#projects/' className="left" >Explore Work</Link></span>
+                                    <span ><Link to='/profile/#projects' className="left" >Explore Work</Link></span>
                                     <span><Link to="/profile" className="right ">View Profile</Link></span>
                                 </div>
                             </div>

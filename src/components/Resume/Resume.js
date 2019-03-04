@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './Resume.css'
+import './Resume.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
+// import { Document, Page } from 'react-pdf';
 
 class Resume extends Component {
     
@@ -63,7 +65,9 @@ class Resume extends Component {
                 <div id='skills-home'>
                 <section className="colorblock-three">
                 <div className="heading-skills">
+                        <ScrollableAnchor id={'skills'}>
                             <h1 className="title skills">Skills</h1>
+                        </ScrollableAnchor>
                                 <div className="exp skills">
                                     <div className="exp-subtitle skills">
                                         <ul className='jobs one skills'>
@@ -470,24 +474,26 @@ class Resume extends Component {
                 <div id='skills-home'>
                 <section className="colorblock-four">
                     <section id='contact'>
-                        <h1 className="title work" id='projects'>Work</h1>
+                        <ScrollableAnchor id={'projects'}>
+                            <h1  className="title work" >Work</h1>
+                        </ScrollableAnchor>
                         <div className="project-container">
                             <div className='project-display'>
                                 <img src="https://i.imgur.com/cMWXclQ.png?1" alt="Hangman Entry Page" width='400' height='400' />
-                                <h3>Hangman</h3>
+                                <a href="https://shakiraweir.github.io/Project1-Hangman/"><h3>Hangman</h3></a>
                                 <p>JavaScript | HTML | Sass | Pug | Parcel </p>
                             </div> 
 
                             <div className='project-display'>
                                 <img src="https://i.imgur.com/nXDMoeU.png?1" alt="Hangman Entry Page" width='400' height='400'/>
-                                <h3>Pearls of Wisdom</h3>
+                                <a href="https://pearls-of-wisdom.herokuapp.com/"><h3>Pearls of Wisdom</h3></a>
                                 <p>JavaScript | HTML | CSS | MongoDB | Express |  NodeJS | Handlebars | Passport | API</p>
                             </div>
 
                             <div className='project-display'>
-                                <img src="https://i.imgur.com/NuhBEKB.png" alt="Hangman Entry Page"
+                               <img src="https://i.imgur.com/NuhBEKB.png" alt="Hangman Entry Page"
                                 width='400' height='400' />
-                                <h3>The Fun Budget Tool</h3>
+                                <a href='http://the-fun-budget-tool.surge.sh/'><h3>The Fun Budget Tool</h3></a>
                                 <p>JavaScript | JSX | React | MongoDB | Express | NodeJS | Jason Web Token </p>
                             </div>
                         </div>
@@ -499,13 +505,17 @@ class Resume extends Component {
                 <div id='skills-home'>
                 <section className="colorblock-three">
                     <section id='contact'>
-                        <h1 className="title contact">Contact</h1>
-    
-                        <blockquote>“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn and relearn.” -Alvin Toffler</blockquote>
+                         <ScrollableAnchor id={'contact'}>
+                            <h1 className="title contact">Contact</h1>
+                        </ScrollableAnchor>
+                        <blockquote>“Transforming ideas into an interactive, digital reality"</blockquote>
                         <div>
                             <a href="https://www.linkedin.com/in/shakiraweir/" target='_blank' rel='noopener noreferrer'> <i class="fab fa-linkedin fa-3x"></i> </a>
                             <a href="https://github.com/shakiraweir" target='_blank' rel='noopener noreferrer'> <i class="fab fa-github fa-3x"></i> </a>
                             <a href="mailto: shakira.r.weir@gmail.com"> <i class="far fa-envelope fa-3x"></i> </a>
+                        </div>
+                        <div>
+                        {/* <a download="href={process.env.PUBLIC_URL + '/public/resume.pdf'} > <p>Resume</p> </a> */}
                         </div>
                     </section>
                 </section>

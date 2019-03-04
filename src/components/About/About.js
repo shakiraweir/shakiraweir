@@ -15,17 +15,20 @@ class About extends Component {
 I am a junior programmer with a solid foundation in the latest front-end and back-end technologies.  </p>
 
                                 <p className='description'>
-                                &hearts; I love the structure, order and efficiency of programming. </p>
+                                &lsaquo;&#47;&rsaquo; I love the structure, order and efficiency of programming. </p>
 
-                                <p className='description'> &hearts; I love the creativity of the design process. </p>
+                                <p className='description'> &lsaquo;&#47;&rsaquo; I love the creativity of the design process. </p>
 
-                                <p className='description'> &hearts; I enjoy spending time fixing little details in UI design.</p>
+                                <p className='description'> &lsaquo;&#47;&rsaquo; I enjoy spending time fixing little details in UI design.</p>
 
                                 <p className='description'>&lsaquo;&#47;&rsaquo;  I am a soon-to-be graduate of General Assembly’s Software Engineering Immersive program in Washington, D.C. </p>
 
                                 <p className='description'>&lsaquo;&#47;&rsaquo; I love to collaborate and I’m currently looking for other creative minds to work, grow and network with. </p>
 
-                                <p className='description'>&lsaquo;&#47;&rsaquo; Feel free to browse my work, view my skills, or get in touch. </p>
+                                <p className='description'>&lsaquo;&#47;&rsaquo; Feel free to <span><a href="/profile#projects">browse my work,</a></span>
+                                <span><a href="profile#skills">view my skills,</a></span>
+                                or 
+                                <span><a href="profile#contact">get in touch.</a></span></p>
 
                             </div>
                         </div>
