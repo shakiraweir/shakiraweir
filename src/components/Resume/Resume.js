@@ -101,7 +101,7 @@ class Resume extends Component {
                                                         <div>
                                                         <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star" style={style}></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -378,8 +378,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star" ></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -387,7 +387,7 @@ class Resume extends Component {
                                                     </div>
 
                                                     
-                                                    <div className="skill">
+                                                    {/* <div className="skill">
                                                         <div>
                                                         <li>Jest</li>
                                                         </div>
@@ -399,7 +399,7 @@ class Resume extends Component {
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div> 
 
                                                 <div className='column-two'>
@@ -415,7 +415,7 @@ class Resume extends Component {
                                                         <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star" style={style}></i>
-                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>  
 
@@ -428,7 +428,7 @@ class Resume extends Component {
                                                         <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star" style={style}></i>
-                                                        <i class="fas fa-star"style={style} ></i>
+                                                        <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>
@@ -464,7 +464,6 @@ class Resume extends Component {
                                                     </div>
                                                 </div> 
                                             </div>
-
                                         </ul>                 
                             </div>
                         </div>
