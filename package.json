@@ -30,7 +30,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.2",
-    "gh-pages": "^2.0.1"
+    "@fortawesome/fontawesome-free": "^5.7.2"
   }
 }
